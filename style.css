@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #212227;
+    --secondary-color: #6ace99;
+    --accent-1: #4eb8e0;   
+    --accent-2: #de5921;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.header-logo {
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.navbar-items {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    /* margin-left: auto; */
+}
+
+.navbar-items li{
+    margin-right: 20px;
+}
