@@ -52,9 +52,26 @@ body {
 }
 
 .landing-title {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 900;
     padding-bottom: 8px;
+}
+
+.landing-body {
+    font-style: italic;
+}
+
+.landing-button {
+    padding: 12px 23px 12px 23px;
+    background-color: var(--accent-1);
+    color: var(--primary-color);
+    border-radius: 12px;
+    box-shadow: var(--accent-2);
+    border: none;
+}
+
+.landing-button:hover {
+    scale: 107%;
 }
 
 .landing-image {
@@ -66,4 +83,7 @@ body {
     border-radius: 10px;
     margin-top: 60px;
     margin-bottom: 60px;
+    outline: 1px;
+    outline-color: var(--secondary-color);
+    outline-style: solid;
 }
