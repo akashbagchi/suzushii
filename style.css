@@ -22,15 +22,48 @@ body {
 .header-logo {
     font-size: 46px;
     font-weight: 800;
+    margin-left: 18%;
 }
 
 .navbar-items {
     list-style: none;
     display: flex;
     padding: 0;
+    margin-right: 18%;
     /* margin-left: auto; */
 }
 
 .navbar-items li{
     margin-right: 20px;
+}
+
+.main-landing {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    padding: 12px;
+}
+
+.landing-info {
+    margin-left: 18%;
+    width: 28%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.landing-title {
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 8px;
+}
+
+.landing-image {
+    width: 32%;
+    margin-right: 18%;
+    margin-left: auto;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
